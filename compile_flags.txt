@@ -1,0 +1,10 @@
+-std=c11
+-xc
+-O2
+-g3
+-Wall
+-Wextra
+--target=riscv32-unknown-elf
+-fno-stack-protector
+-ffreestanding
+-nostdlib
